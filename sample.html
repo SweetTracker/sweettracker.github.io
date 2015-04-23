@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sweettracker.GitHub.io by SweetTracker</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Sample Code</h1>
+      <h2 class="project-tagline"></h2>
+    </section>
+
+    <section class="main-content">
+      <h3>
+	  <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Open API Sample Code입니다.</h3>
+	  
+	  <pre>
+	  public static void main(String[] args) throws IOException {
+        String url = "http://rest.sweettracker.net/tracking"; //서비스URL
+        String key = "SWEETTRACKER"; //신청해서 받은 키
+        String code = "04";
+        String invoice = "1234567890";
+        
+        String furl = String.format("%s/?t_key=%s&t_code=%s&t_invoice=%s", url, key, code, invoice);
+        
+        URL obj = new URL(furl);
+        HttpURLConnection httpConn  = (HttpURLConnection) obj.openConnection();
+
+        // 전송방식 GET 지정
+        httpConn .setRequestMethod("GET");
+
+        // 요청헤더 추가
+        httpConn .setRequestProperty("User-Agent", "Mozilla/5.0");
+        httpConn .setRequestProperty("Accept", "application/json");
+        
+        int responseCode = httpConn.getResponseCode();
+        // 응답코드 확인(정상호출시 200)
+        System.out.println("Response Code : " + responseCode);
+        
+        
+        
+        BufferedReader in = new BufferedReader(
+                new InputStreamReader(httpConn.getInputStream()));
+        String inputLine;
+        StringBuffer response = new StringBuffer();
+
+        while ((inputLine = in.readLine()) != null) {
+            response.append(inputLine);
+        }
+        in.close();
+
+        //결과 확인
+        System.out.println(response.toString());        
+      }	  
+	  </pre>
+
+  </body>
+</html>
+
