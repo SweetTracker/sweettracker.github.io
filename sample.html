@@ -20,7 +20,10 @@
 	  <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Open API Sample Code입니다.</h3>
 	  
 	  <p> 서비스 URL을 호출할때의 규칙과 동작방식, 리턴되는 코드에 대한 가장 간단한 사용방법입니다. </p>
-	  <p> 서비스 URL : http://rest.sweettracker.net/tracking </P>
+	  <p> 서비스 URL : <a href="http://rest.sweettracker.net/tracking">http://rest.sweettracker.net/tracking</a> </P>
+	  <p> 서비스를 비어있는 상태로 호출하면 ErrorCode 104 와 ErrorMsg에 null Code라는 형태로 리턴됩니다. </P>
+	  <p> 104 : 택배사 코드가 없거나 일치하지 않음, null code : 운송장번호가 비어있음. </p>
+	  <p> 보다 상세한 내용을 원하시면 API문서를 참조하십시요. </p> 
 	  <pre>
       public static void main(String[] args) throws IOException {
         String url = "http://rest.sweettracker.net/tracking"; //서비스URL
