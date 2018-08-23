@@ -1,92 +1,83 @@
 <div class="about row">
 
-    <div class="col-md-8">
+    <section class="page-header">
+        <h1 class="project-name">SweetTracker.GitHub.io</h1>
+        <h2 class="project-tagline"></h2>
+    </section>
 
-        <section class="page-header">
-            <h1 class="project-name">SweetTracker.GitHub.io</h1>
-            <h2 class="project-tagline"></h2>
-        </section>
+    <section class="main-content">
+        <h3>
+            <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a><b>개발자를 위한 배송정보 Open-API</b></h3>
+        <p> 스윗트래커에서 제공하는 무료로 사용할 수 있는 배송정보 <b>Open-API</b> 소개 페이지 입니다. <a href="http://sweettracker.github.io/history"><copyright></a></P>
+        <p> 스마트택배를 포함한 4개의 택배 조회앱을 운영하면서 쌓은 노하우를 담아 택배조회 API를 무료로 공개합니다. 택배 배송정보가 필요한 인디개발자와 스타트업들의 많은 이용을 부탁드립니다. </p>
+        <img src="banner2.png" width="700" height="300" alt="" title="" usemap="#imageMap"/>
+        <map name="imageMap">
+            <area shape="rect" coords="44, 203, 377, 266" href="https://tracking.sweettracker.co.kr" target="_blank"/>
+        </map>
+        <h4> Quick-Start! </h4>
+        <p> 국내 택배사 38개에 대한 배송정보 연계가 단 하나의 API로 가능하며 사용이 간단합니다.</p>
+        <p> 본격적인 서비스를 만들기 전에 사용해 보세요.</P>
+        <h4>What is ST-OpenAPI?</h4>
+        <ul>
+            <li><b>ST-OpenAPI</b>는 개발자들에게 손쉽게 배송물류 조회가 가능한 기능을 제공합니다.</li>
+            <li><b>ST-OpenAPI</b>는 설치하는 라이브러리가 없습니다.</li>
+            <li><b>ST-OpenAPI</b>는 택배사들의 정보 변화에 대한 민감하게 대응합니다.</li>
+            <li><b>ST-OpenAPI</b>는 국내 주요 택배사들과 계약관계에 의해 직접 연결되어 있습니다.</li>
+            <li><b>ST-OpenAPI</b>는 가장 빠른 택배사 배송정보 연계 솔루션입니다.</li>
+            <li><b>ST-OpenAPI</b>는 해외배송업체나 구매대행 서비스를 조회할 수 있습니다.</li>
+        </ul>
+        <p> 복잡하지 않습니다. 단지, 키를 받으시고,<b> RestFul형태의 API를 호출하세요. </b></p>
 
-        <section class="main-content">
-            <h3>
-                <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a><b>개발자를 위한 배송정보 Open-API</b></h3>
-            <p> 스윗트래커에서 제공하는 무료로 사용할 수 있는 배송정보 <b>Open-API</b> 소개 페이지 입니다. <a href="http://sweettracker.github.io/history"><copyright></a></P>
-            <p> 스마트택배를 포함한 4개의 택배 조회앱을 운영하면서 쌓은 노하우를 담아 택배조회 API를 무료로 공개합니다. 택배 배송정보가 필요한 인디개발자와 스타트업들의 많은 이용을 부탁드립니다. </p>
-            <img src="banner2.png" width="700" height="300" alt="" title="" usemap="#imageMap"/>
-            <map name="imageMap">
-                <area shape="rect" coords="44, 203, 377, 266" href="https://tracking.sweettracker.co.kr" target="_blank"/>
-            </map>
-            <h4> Quick-Start! </h4>
-            <p> 국내 택배사 38개에 대한 배송정보 연계가 단 하나의 API로 가능하며 사용이 간단합니다.</p>
-            <p> 본격적인 서비스를 만들기 전에 사용해 보세요.</P>
-            <h4>What is ST-OpenAPI?</h4>
-            <ul>
-                <li><b>ST-OpenAPI</b>는 개발자들에게 손쉽게 배송물류 조회가 가능한 기능을 제공합니다.</li>
-                <li><b>ST-OpenAPI</b>는 설치하는 라이브러리가 없습니다.</li>
-                <li><b>ST-OpenAPI</b>는 택배사들의 정보 변화에 대한 민감하게 대응합니다.</li>
-                <li><b>ST-OpenAPI</b>는 국내 주요 택배사들과 계약관계에 의해 직접 연결되어 있습니다.</li>
-                <li><b>ST-OpenAPI</b>는 가장 빠른 택배사 배송정보 연계 솔루션입니다.</li>
-                <li><b>ST-OpenAPI</b>는 해외배송업체나 구매대행 서비스를 조회할 수 있습니다.</li>
-            </ul>
-            <p> 복잡하지 않습니다. 단지, 키를 받으시고,<b> RestFul형태의 API를 호출하세요. </b></p>
+        <h4> Open-API 지원 택배사 목록 </h4>
 
-            <h4> Open-API 지원 택배사 목록 </h4>
-
-            <p> ST-OpenAPI를 통해서 지원가능한 <a href="https://docs.google.com/spreadsheets/d/1fJKGZp0mrUz16H8pqwckTjqRvbbObbIi88tA35HV0OU/edit?usp=sharing">택배사 목록</a> 입니다. </P>
-            <P> 지속적으로 해외 배송업체들과 쇼핑몰들과의 연계가 확장되고 있습니다. </P>
-            <!--
-                <h4>How to get</h4>
-            <p> <b>인디 개발자</b>와 <b>스타트업</b>의 경우에는 연계 신청서를 작성하시고, 배송연계 API를 기준으로 앱이나 웹서비스를 개발하시면 됩니다. </P>
-            <p> 제공되는 Open-API는 인디개발자와 스타트업을 위한 기능으로 제한된 횟수만큼 무료로 이용이 가능합니다.</p>
-            <p> 보다 본격적인 배송정보연동을 위해 유료서비스 지원이 필요한 경우엔 <a href="mailto:sweetracker.kr@gmail.com">sweetracker.kr@gmail.com</a> 으로 문의하시기 바랍니다. </p>
-            -->
-            <p> (주) 스윗트래커에서 제공하는 '배송정보연계 서비스'는 국내의<b> 쇼핑몰( 티몬, 롯데홈쇼핑, GSShop, 홈앤쇼핑, 공영홈쇼핑 등 )과 포털 서비스(네이버, 카카오)</b>에서 사용하고 있습니다. </p>
+        <p> ST-OpenAPI를 통해서 지원가능한 <a href="https://docs.google.com/spreadsheets/d/1fJKGZp0mrUz16H8pqwckTjqRvbbObbIi88tA35HV0OU/edit?usp=sharing">택배사 목록</a> 입니다. </P>
+        <P> 지속적으로 해외 배송업체들과 쇼핑몰들과의 연계가 확장되고 있습니다. </P>
+        <!--
+            <h4>How to get</h4>
+        <p> <b>인디 개발자</b>와 <b>스타트업</b>의 경우에는 연계 신청서를 작성하시고, 배송연계 API를 기준으로 앱이나 웹서비스를 개발하시면 됩니다. </P>
+        <p> 제공되는 Open-API는 인디개발자와 스타트업을 위한 기능으로 제한된 횟수만큼 무료로 이용이 가능합니다.</p>
+        <p> 보다 본격적인 배송정보연동을 위해 유료서비스 지원이 필요한 경우엔 <a href="mailto:sweetracker.kr@gmail.com">sweetracker.kr@gmail.com</a> 으로 문의하시기 바랍니다. </p>
+        -->
+        <p> (주) 스윗트래커에서 제공하는 '배송정보연계 서비스'는 국내의<b> 쇼핑몰( 티몬, 롯데홈쇼핑, GSShop, 홈앤쇼핑, 공영홈쇼핑 등 )과 포털 서비스(네이버, 카카오)</b>에서 사용하고 있습니다. </p>
 
 
-            <!--
-            <h4> How to use </h4>
-            <p> 배송연계를 위한 키를 받으시고, 자신의 앱이나 서비스에 구현하는 방법은 간단합니다. 등록 이메일을 보내시고, <b>Key</b>를 받으셔서 Document에 있는 형태로 구현하시면, 손쉽게 배송정보 연동이 가능합니다. </p>
-            <p> Quick-start Guide를 통해 사용방법을 빠르게 살펴보세요. 지금 시작하세요! </P>
-               <! -- SIDEBAR -->
-            <!--
-            <div class="col-lg-2">
+        <!--
+        <h4> How to use </h4>
+        <p> 배송연계를 위한 키를 받으시고, 자신의 앱이나 서비스에 구현하는 방법은 간단합니다. 등록 이메일을 보내시고, <b>Key</b>를 받으셔서 Document에 있는 형태로 구현하시면, 손쉽게 배송정보 연동이 가능합니다. </p>
+        <p> Quick-start Guide를 통해 사용방법을 빠르게 살펴보세요. 지금 시작하세요! </P>
+           <! -- SIDEBAR -->
+        <!--
+        <div class="col-lg-2">
 
-              <div class="spacing"></div>
+          <div class="spacing"></div>
 
-              <h4>GETTING STARTED</h4>
-              <div class="hline"></div>
-              <p><a href="/welcome"><i class="fa fa-angle-right"></i> Welcome</a></p>
-              <p><a href="/quick-start"><i class="fa fa-angle-right"></i> Quick-start guide</a></p>
-              <p><a href="/history"><i class="fa fa-angle-right"></i> History</a></p>
-              <div class="spacing"></div>
+          <h4>GETTING STARTED</h4>
+          <div class="hline"></div>
+          <p><a href="/welcome"><i class="fa fa-angle-right"></i> Welcome</a></p>
+          <p><a href="/quick-start"><i class="fa fa-angle-right"></i> Quick-start guide</a></p>
+          <p><a href="/history"><i class="fa fa-angle-right"></i> History</a></p>
+          <div class="spacing"></div>
 
-              <h4>registration</h4>
-              <div class="hline"></div>
-              <p><a href="/link"><i class="fa fa-angle-right"></i> 연계신청</a></p>
-              <p><a href="/tech"><i class="fa fa-angle-right"></i> 기술지원 요청</a></p>
-              <div class="spacing"></div>
+          <h4>registration</h4>
+          <div class="hline"></div>
+          <p><a href="/link"><i class="fa fa-angle-right"></i> 연계신청</a></p>
+          <p><a href="/tech"><i class="fa fa-angle-right"></i> 기술지원 요청</a></p>
+          <div class="spacing"></div>
 
-              <h4>API DOCUMENTS</h4>
-              <div class="hline"></div>
-              <p><a href="/de-link.html"><i class="fa fa-angle-right"></i> 배송정보 Open-API </a></p>
-              <p><a href="/sample"><i class="fa fa-angle-right"></i> Sample Code (API) </a></p>
-              <p><a href="/sample2"><i class="fa fa-angle-right"></i> Sample Code (web) </a></p>
+          <h4>API DOCUMENTS</h4>
+          <div class="hline"></div>
+          <p><a href="/de-link.html"><i class="fa fa-angle-right"></i> 배송정보 Open-API </a></p>
+          <p><a href="/sample"><i class="fa fa-angle-right"></i> Sample Code (API) </a></p>
+          <p><a href="/sample2"><i class="fa fa-angle-right"></i> Sample Code (web) </a></p>
 
-              <h4>API DOCUMENTS</h4>
-              <p><a href="https://github.com/SweetTracker/instantService"><i class="fa fa-angle-right"></i> 배송정보 API, Sample, class 제공 (Github) </a></p>
+          <h4>API DOCUMENTS</h4>
+          <p><a href="https://github.com/SweetTracker/instantService"><i class="fa fa-angle-right"></i> 배송정보 API, Sample, class 제공 (Github) </a></p>
 
-              <div class="spacing"></div>
+          <div class="spacing"></div>
 
-<<<<<<< HEAD
-            </div>
-            -->
-            <hr />
-            <div align="right"><p> 스윗트래커의 개발자지원 페이지</P> <p> <a href="http://www.sweettracker.co.kr">스윗트래커 홈페이지</a></P> <img src="st.png" width="108" height="124" alt="" title="" /></div>
-
-            <div class="col-md-4">
-                {% include sidebar-popular-repo.html %}
-            </div>
-        </section>
-    </div>
-
-    </div>
+        </div>
+        -->
+        <hr />
+        <div align="right"><p> 스윗트래커의 개발자지원 페이지</P> <p> <a href="http://www.sweettracker.co.kr">스윗트래커 홈페이지</a></P> <img src="st.png" width="108" height="124" alt="" title="" /></div>
+    </section>
+</div>
