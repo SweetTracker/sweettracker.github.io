@@ -1,19 +1,12 @@
 ---
 layout: page
-title: About Me
-menu: about
-subtitle:   <h3>Download My CV</h3>
-            <a role="button" class="btn btn-primary hvr-grow-shadow" href="/assets/files/CV_Chuan_Dong_FR.pdf" target="_blanks">
-                <span class="flag-icon flag-icon-bl"></span> Français
-            </a>
-            <a role="button" class="btn btn-primary hvr-grow-shadow" href="/assets/files/CV_Chuan_Dong_FR.pdf" target="_blanks">
-                <span class="flag-icon flag-icon-gb"></span> English
-            </a>
-            <a role="button" class="btn btn-primary hvr-grow-shadow" href="/assets/files/CV_Chuan_Dong_FR.pdf" target="_blanks">
-                <span class="flag-icon flag-icon-cn"></span> 中文
-            </a>
-                            
-css: ['about.css', 'sidebar-popular-repo.css', '../../bower_components/flag-icon-css/css/flag-icon.min.css']
+title: About
+permalink: /about/
+feature-img: "assets/img/sample_feature_img_2.png"
 ---
 
-{% include about.html %}
+Type Theme is a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+
+Head over to the [theme's documentation](https://rohanchandra.github.io/project/type/) for much more information about Type Theme or to install this theme on your own Jekyll site.
+
+This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
