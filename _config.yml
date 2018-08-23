@@ -12,7 +12,7 @@ email: my_email_address@lalala.com
 location: My location # ex. Nice, France
 company: MyCompany
 company_url: my_company_website
-github_url: my_github_url # ex. https://github.com/DONGChuan
+github_url: https://sweettracker.github.io/
 github_username: # ex. DONGChuan
 description: description_of_your_web_site
 favicon: favicon.png # Image must be in assets/images
@@ -21,7 +21,7 @@ repository: github_username/github_username.github.io # ex. DONGChuan/DONGChuan.
 # The base hostname & protocol for your site
 # For local test, please use http://localhost:4000
 # For production, use your github page url. ex. http://dongchuan.github.io
-url: http://localhost:4000
+url: https://sweettracker.github.io/
 
 ## Gem
 gems:
