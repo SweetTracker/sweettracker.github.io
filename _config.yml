@@ -17,7 +17,8 @@ github_url: https://github.com/SweetTracker # ex. https://github.com/DONGChuan
 github_username: SweetTracker # ex. DONGChuan
 description: 스윗트래커 기술블로그
 
-favicon: favicon.png # Image must be in assets/images
+favicon: ic_app_icon.png # Image must be in assets/images
+
 repository: SweetTracker/sweettracker.github.io # ex. DONGChuan/DONGChuan.github.io
 
 # The base hostname & protocol for your site
@@ -61,10 +62,6 @@ navs:
   -
     href: /
     label: Home
-
-  -
-    href: /open-source
-    label: Open-Source
 
   -
     href: /blog
