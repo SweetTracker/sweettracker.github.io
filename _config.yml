@@ -13,8 +13,8 @@ email: sweetracker.kr@gmail.com
 location: Seoul, Korea # ex. Nice, France
 company: SweetTracker
 company_url: http://www.sweettracker.co.kr
-github_url: https://github.com/SweetTracker # ex. https://github.com/DONGChuan
-github_username: SweetTracker # ex. DONGChuan
+github_url: # ex. https://github.com/DONGChuan
+github_username: # ex. DONGChuan
 description: 스윗트래커 기술블로그
 
 favicon: ic_app_icon.png # Image must be in assets/images
