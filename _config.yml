@@ -51,7 +51,7 @@ kramdown:
   enable_coderay: true
 
 # Disque
-disque: http://sweettracker.disqus.com # ex. httpdongchuangithubio.disqus.com
+disque: sweettracker.disqus.com # ex. httpdongchuangithubio.disqus.com
 
 # Pagination
 paginate: 10
