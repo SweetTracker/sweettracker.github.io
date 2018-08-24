@@ -8,7 +8,7 @@
 # Site settings
 
 title: 스윗트래커 기술블로그 # ex. I m Chuan
-name: 스윗트래커 기술블로그 # ex. DONGChuan
+name:   # ex. DONGChuan
 email: sweetracker.kr@gmail.com
 location: Seoul, Korea # ex. Nice, France
 company: SweetTracker
