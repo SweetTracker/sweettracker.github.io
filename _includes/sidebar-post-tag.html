@@ -15,7 +15,7 @@
         <span class="badge">Study</span>
 
         {% for category in site.categories %}
-        <li class="list-group-item">
+        <li class="list-group-item" style="margin-top: 2%">
             {{ category | first }}
             <span class="badge">{{ category[1].size }}</span>
         </li>
