@@ -1,7 +1,6 @@
 <h3 class="sidebar-title">Blog Categories</h3>
 <div id="blog-categories">
     <ul class="list-group">
-        <!--{% for category in site.categories %}-->
         <li class="list-group-item">
 
             <span class="badge">사용방법</span>
@@ -16,8 +15,9 @@
             <span class="badge">R&D</span>
             <span class="badge">Study</span>
 
-            <!--{{ category | first }}-->
-            <!--<span class="badge">{{ category[1].size }}</span>-->
+            {% for category in site.categories %}
+            {{ category | first }}
+            <span class="badge">{{ category[1].size }}</span>
         </li>
         <!--{% endfor %}-->
     </ul>
