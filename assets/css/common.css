@@ -36,7 +36,7 @@
 }
 
 .site-header a:hover {
-    color: #F5F6CE;
+    color: #4183c4;
 }
 
 #site-header-brand, #site-header-brand .octicon {
@@ -67,7 +67,7 @@
 
 .site-header.site-header-nav-scrolled {
     margin: 0;
-    background-color: #F5F6CE;
+    background-color: #4183c4;
 
     -webkit-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
     -moz-box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
