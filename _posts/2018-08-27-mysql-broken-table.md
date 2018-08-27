@@ -1,8 +1,8 @@
 ---
 layout: post
-title: [MySQL] 깨진 테이블 복구법 (Table is marked as crashed and should be repaired)
+title: MySQL 깨진 테이블 복구법
 category: MySQL
-tags: [기술블로그]
+tags: [MySQL]
 ---
 
 ## [MySQL] 깨진 테이블 복구법 (Table is marked as crashed and should be repaired)
