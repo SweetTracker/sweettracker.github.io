@@ -6,7 +6,7 @@
 }
 
 .site-header #site-header-brand {
-    color: #4183c4;
+    color: #fff;
 }
 
 .site-header .site-header-nav-item {
@@ -14,7 +14,7 @@
 }
 
 .site-header a:hover {
-    color: #4183c4;
+    color: #fff;
 }
 
 .jumbotron {
