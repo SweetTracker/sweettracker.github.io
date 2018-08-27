@@ -6,6 +6,7 @@ tags: [기술블로그]
 ---
 
 ## [MySQL] 깨진 테이블 복구법 (Table is marked as crashed and should be repaired)
+
 MySql에서 테이블이 깨졌을 시 복구 법 입니다.
 
 
