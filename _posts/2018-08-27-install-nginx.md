@@ -12,7 +12,8 @@ tags: [Nginx]
 
 <p class="p1"><span style="font-size: 12pt; font-family: &quot;맑은 고딕&quot;, sans-serif; color: rgb(0, 0, 0);">서비스플랫폼팀의</span><span class="s1" style="font-size: 12pt; font-family: &quot;맑은 고딕&quot;, sans-serif; color: rgb(0, 0, 0);"> AN</span><span style="font-size: 12pt; font-family: &quot;맑은 고딕&quot;, sans-serif; color: rgb(0, 0, 0);">입니다</span><span class="s1"><span style="font-size: 12pt; font-family: &quot;맑은 고딕&quot;, sans-serif; color: rgb(0, 0, 0);">~</span><br /><span style="font-size: 12pt; font-family: &quot;맑은 고딕&quot;, sans-serif; color: rgb(0, 0, 0);">
 </span>
-
+<p><span style="font-family: &quot;맑은 고딕&quot;, sans-serif; font-size: 12pt;">Nginx 설치 방법입니다</span></p>
+<br>
 <p class="p1"><span style="font-size: 12pt;">- yum </span><span class="s1" style="font-size: 12pt;">으로</span><span style="font-size: 12pt;"> </span><span class="s1" style="font-size: 12pt;">설치시</span><span style="font-size: 12pt;"> </span><span class="s1" style="font-size: 12pt;">오래된</span><span style="font-size: 12pt;"> </span><span class="s1" style="font-size: 12pt;">버전이</span><span style="font-size: 12pt;"> </span><span class="s1" style="font-size: 12pt;">설치</span><span style="font-size: 12pt;"> </span><span class="s1" style="font-size: 12pt;">되므로</span><span style="font-size: 12pt;"> </span><span class="s1" style="font-size: 12pt;">따로</span><span style="font-size: 12pt;"> nginx repository </span><span class="s1" style="font-size: 12pt;">를</span><span style="font-size: 12pt;"> </span><span class="s1" style="font-size: 12pt;">구성하도록</span><span style="font-size: 12pt;"> </span><span class="s1" style="font-size: 12pt;">한다</span><span style="font-size: 12pt;">.</span></p>
 <p class="p1"><span style="font-size: 12pt;"><br /></span></p>
 <p class="p1"><span class="Apple-converted-space" style="font-size: 12pt;">&nbsp;&nbsp; &nbsp; </span><span style="font-size: 12pt;">#vi /etc/yum.repos.d/nginx.repo</span></p>
