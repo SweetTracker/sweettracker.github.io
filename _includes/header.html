@@ -1,9 +1,8 @@
 <header class="site-header">
     <div class="container">
-        <a id="site-header-brand" href="/" title="{{ site.name }}">
+        <a href="/" title="{{ site.name }}">
             <!--<span class="octicon octicon-mark-github"></span> --><img src="/assets/images/ic_ci.png">
-        </a>
-        <h2 style="font-weight: 100">기술블로그</h2>
+        </a> 
         <nav class="site-header-nav" role="navigation">
             {% for nav in site.navs %}
             <a href="{{ nav.href }}"
