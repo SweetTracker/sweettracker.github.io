@@ -1,9 +1,10 @@
 <header class="site-header">
     <div class="container">
         <a id="site-header-brand" href="/" title="{{ site.name }}">
-            <!--<span class="octicon octicon-mark-github"></span> --><img src="/assets/images/ic_ci.png"> 기술블로그
+            <!--<span class="octicon octicon-mark-github"></span> --><img src="/assets/images/ic_ci.png">
         </a>
         <nav class="site-header-nav" role="navigation">
+            <h3 style="font-weight: 100">기술블로그</h3>
             {% for nav in site.navs %}
             <a href="{{ nav.href }}"
                class="{% if page.menu == nav.label %} selected {% endif %} site-header-nav-item hvr-underline-from-center"
