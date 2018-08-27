@@ -16,10 +16,6 @@
 
         {% for category in site.categories %}
         <li class="list-group-item">
-
-            <span class="badge">사용방법</span>
-            <span class="badge"></span>
-
             {{ category | first }}
             <span class="badge">{{ category[1].size }}</span>
         </li>
