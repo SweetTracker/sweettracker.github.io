@@ -1,21 +1,25 @@
 <h3 class="sidebar-title">Blog Categories</h3>
 <div id="blog-categories">
     <ul class="list-group">
-        <li class="list-group-item">
-            <span class="badge">Tools</span>
-            <span class="badge">Spring / Sprinb Boot</span>
-            <span class="badge">Database</span>
-            <span class="badge">Linux / Server</span>
-            <span class="badge">Mobile</span>
-            <span class="badge">Java</span>
-            <span class="badge">Python</span>
-            <span class="badge">Script</span>
-            <span class="badge">CSS</span>
-            <span class="badge">Experience</span>
-            <span class="badge">R&D</span>
-            <span class="badge">Study</span>
+        <span class="badge">Tools</span>
+        <span class="badge">Spring / Sprinb Boot</span>
+        <span class="badge">Database</span>
+        <span class="badge">Linux / Server</span>
+        <span class="badge">Mobile</span>
+        <span class="badge">Java</span>
+        <span class="badge">Python</span>
+        <span class="badge">Script</span>
+        <span class="badge">CSS</span>
+        <span class="badge">Experience</span>
+        <span class="badge">R&D</span>
+        <span class="badge">Study</span>
 
-            {% for category in site.categories %}
+        {% for category in site.categories %}
+        <li class="list-group-item">
+
+            <span class="badge">사용방법</span>
+            <span class="badge"></span>
+
             {{ category | first }}
             <span class="badge">{{ category[1].size }}</span>
         </li>
