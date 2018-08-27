@@ -2,8 +2,6 @@
 <div id="blog-categories">
     <ul class="list-group">
         <li class="list-group-item">
-
-            <span class="badge">사용방법</span>
             <span class="badge">Tools</span>
             <span class="badge">Spring / Sprinb Boot</span>
             <span class="badge">Database</span>
@@ -21,7 +19,7 @@
             {{ category | first }}
             <span class="badge">{{ category[1].size }}</span>
         </li>
-        <!--{% endfor %}-->
+        {% endfor %}
     </ul>
 </div>
 <script type="text/javascript">
