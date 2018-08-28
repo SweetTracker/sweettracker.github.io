@@ -19,6 +19,7 @@
 
 .jumbotron {
     background: #4183c4;
+    height: 20% !important;
 }
 
 .site-header.site-header-nav-scrolled a {
