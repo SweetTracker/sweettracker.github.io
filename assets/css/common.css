@@ -14,7 +14,7 @@
     top: 0;
     left: 0 !important;
     right: 0;
-    z-index: 103;
+    z-index: 50;
 
     color: #000;
     background: #fff;
@@ -105,7 +105,7 @@
     text-decoration: none;
 }
 .jumbotron #jumbotron-meta-info {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .jumbotron .meta-info {
