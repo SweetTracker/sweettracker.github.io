@@ -95,8 +95,8 @@
 
 /** Jumbotron **/
 .jumbotron {
-    /*padding-top: 100px;*/
-    /*padding-bottom: 50px;*/
+    padding-top: 200px;
+    padding-bottom: 50px;
     color: #fff;
 }
 
