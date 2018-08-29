@@ -8,7 +8,7 @@ tags: [SurveyMonkey]
 ## 서베이 몽키 API 사용 포스팅 입니다. 
 
 <body class="stackedit">
-  <div class="stackedit__html"><p>서베이 몽키 API 사용 준비 포스팅 입니다.</p>
+  <div class="stackedit__html">
 <p>안녕하세요<br>
 서비스 플랫폼팀의 AN 입니다.</p>
 <p>서베이 몽키 API연동을 하며 사용 준비 단계에 대한 Instruction이 없어 작성하게 되었습니다.</p>
@@ -19,7 +19,8 @@ tags: [SurveyMonkey]
 <li>설문 결과 확인</li>
 </ol>
 <hr>
-<p>먼저 App 생성 후 Access Token 확인법입니다.</p>
+<br>
+먼저 App 생성 후 Access Token 확인법입니다. 
 <dl>
 <dt>Survey Monkey Developer</dt>
 <dd><a href="https://developer.surveymonkey.com/">https://developer.surveymonkey.com/</a></dd>
@@ -35,7 +36,7 @@ tags: [SurveyMonkey]
 Scopes 설정으로 API사용 여부를 설정합니다.<br>
 <s>(위 Token 값은 테스트 용으로 사용되지 않습니다)</s></p>
 <p>Scope의 초기 값은 Not Request로 설정되어 있기에 필요한 API에 대해 클릭하여 Required로 변경해  줍니다.</p>
-<hr>
+<h2 id="br"><br></h2>
 <p>앱 생성이 완료 되었으면 설문 생성을 위해 Survey 사이트로 이동합니다.</p>
 <dl>
 <dt>Survey Monkey Console</dt>
@@ -50,7 +51,7 @@ Scopes 설정으로 API사용 여부를 설정합니다.<br>
 <dt>Survey Help</dt>
 <dd><a href="https://help.surveymonkey.com/">https://help.surveymonkey.com/</a></dd>
 </dl>
-<h2 id="br"><br></h2>
+<h2 id="br-1"><br></h2>
 <p>Survey Monkey API 관련 내용입니다.<br>
 API 요청 상세는 아래 사이트에서 확인 할 수 있습니다.</p>
 <dl>
