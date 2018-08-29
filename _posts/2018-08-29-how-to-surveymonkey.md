@@ -5,8 +5,9 @@ category: API
 tags: [SurveyMonkey]
 ---
 
-## 서베이 몽키 API 사용 준비 포스팅 입니다. 
+## 서베이 몽키 API 사용 포스팅 입니다. 
 
+<br>
 
 서베이 몽키 API 사용 준비 포스팅 입니다. 
 
@@ -22,8 +23,9 @@ tags: [SurveyMonkey]
 1. App 생성하기
 2. 설문 생성
 3. 설문 결과 확인
-
+<br>
 ----
+<br>
 먼저 App 생성 후 Access Token 확인법입니다. 
 
 Survey Monkey Developer
@@ -47,8 +49,9 @@ Survey Monkey Developer 사이트에 접속하여 로그인 후, 상단의 'MyAp
 ~~(위 Token 값은 테스트 용으로 사용되지 않습니다)~~
 
  Scope의 초기 값은 Not Request로 설정되어 있기에 필요한 API에 대해 클릭하여 Required로 변경해  줍니다. 
-
+<br>
 --------
+<br>
 앱 생성이 완료 되었으면 설문 생성을 위해 Survey 사이트로 이동합니다. 
 
 Survey Monkey Console
@@ -66,8 +69,9 @@ Survey 사이트 관련하여 자세한 사항은 아래 링크에서 확인!
 
 Survey Help
 : https://help.surveymonkey.com/
-
+<br>
 --------
+<br>
 Survey Monkey API 관련 내용입니다. 
 API 요청 상세는 아래 사이트에서 확인 할 수 있습니다.
 
@@ -90,8 +94,8 @@ Survey Monkey API 요청시에는 포스팅 앞 부분에 기술 되었던 Apps�
 
 필요한 API나 사용법에 대해서는 API Documentation 사이트를 확인 해주세요.
 
-
-사용 준비 단계라 뭔가 두서 없이 써내려 갔네요;
+<br>
+사용 준비 단계라 뭔가 두서 없이 써내려 갔네요; <br>
 설명이 부족한 부분이나 궁굼하신 점 있으면 댓글로 남겨주세요! :) 
 
 
