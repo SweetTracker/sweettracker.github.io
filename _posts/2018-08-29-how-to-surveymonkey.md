@@ -2,7 +2,7 @@
 layout: post
 title: Survey Monkey API 간단 사용법
 category: API
-tags: [외부API]
+tags: [SurveyMonkey]
 ---
 
 ## 서베이 몽키 API 사용 준비 포스팅 입니다. 
