@@ -1,10 +1,12 @@
-
 ---
 layout: post
 title: Retrofit과 RxJava로 연쇄 API 호출 코드 수정하기
 category: android
 tags: [RxJava, Retrofit]
 ---
+
+
+
 
 ## Retrofit과 RxJava로 연쇄 API 호출 코드 수정하기
 
@@ -196,22 +198,23 @@ Observable.zip(getOpenStatusObservable(), getShopsObservable(),
         .subscribeOn(Schedulers.newThread())  
         .observeOn(Schedulers.newThread())  
         .subscribe(  
-                new Action1<Boolean>() {  
-                    @Override  
-					public void call(Boolean aBoolean) {  
-						..후처리
+                new Action1<Boolean>() {
+                    @Override
+                    public void call(Boolean aBoolean) {
+                      ..후처리
                     }  
-                }, new Action1<Throwable>() {  
+                },
+                new Action1<Throwable>() {
                     @Override  
 					public void call(Throwable throwable) {  
 					  ..에러처리
                     }  
-                }, new Action0() {  
+                }, 
+                new Action0() {  
                     @Override  
 					public void call() {  
                        ..완료처리
-  
-				}  
+				    }  
        });  
  
 ~~~
