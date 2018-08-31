@@ -164,11 +164,9 @@ private Observable<ShopsModel> getShopsObservable(){
 
 이제 Observable를 구독해야합니다.
 
-그런데 하나씩 구독할거면 뭣하러 하냐이겁니다.
+우리는 zip이라는 메소드를 사용할 것 입니다.
 
-그래서 zip 을 사용할겁니다. ㅎㅎ
-
-zip의 경우 Observable의 결합으로, 파라미터로 삽입된 Observable들이 하나씩 호출이 되게끔 됩니다.
+zip의 경우 Observable의 결합으로, 파라미터로 삽입된 Observable들을 한번에 구독할 수 있습니다.
 
 즉, 우리가 여러개의 api 를 묶어서 호출할때 하던 쓸데없는 카운트 세기라던지, 큐 형태로 핸들러나 인터페이스를 add한 후 하나씩 빼면서 처리하던 역할들을 모두 제거할 수 있습니다.
 
