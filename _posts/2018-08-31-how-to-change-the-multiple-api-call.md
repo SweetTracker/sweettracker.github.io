@@ -38,17 +38,17 @@ tags: [RxJava, Retrofit]
 
 ~~~java
 getShoppingMallStatus(new Handler.Callback(){
-	@Override  
-	public boolean handleMessage(Message msg){
-		...data처리
-		getShoppingMallInfomation(new Handler.Callback()){
-				@Override 
-				public boolean handleMessage(Message msg){
-					...data처리
-					...api호출
-				} 
-		}
-	}
+    @Override  
+    public boolean handleMessage(Message msg){
+        ...data처리
+        getShoppingMallInfomation(new Handler.Callback()){
+            @Override 
+            public boolean handleMessage(Message msg){
+                ...data처리
+                ...api호출
+            } 
+        }
+    }
 });
 ~~~
 
@@ -85,7 +85,7 @@ public interface API{
     @GET("shopping_shops_v3")  
     Observable<ShopsModel> getShopList(@Query("version") String version, @Query("app") String app, @Query("os_version") String os_version);  
   
-	@GET("open_status_s")  
+    @GET("open_status_s")  
     Observable<OpenStatusModel> getShopStatus(@Query("version") String version, @Query("app") String app, @Query("os_version") String os_version);  
 }
 ~~~
@@ -111,35 +111,35 @@ mRetrofit.create(API.class);
 public class ShoppingDiaryApi {  
   
     private volatile static ShoppingDiaryApi mInstance;  
-	private Retrofit mRetrofit;  
-	private API mAPI;  
+    private Retrofit mRetrofit;  
+    private API mAPI;  
   
   
-	private ShoppingDiaryApi(){  
-	    mRetrofit = new Retrofit.Builder().baseUrl(BASEURL).addConverterFactory(GsonConverterFactory.create()).addCallAdapterFactory(RxJavaCallAdapterFactory.create()).build();  
-		mAPI = mRetrofit.create(API.class);  
-	}  
+    private ShoppingDiaryApi(){  
+        mRetrofit = new Retrofit.Builder().baseUrl(BASEURL).addConverterFactory(GsonConverterFactory.create()).addCallAdapterFactory(RxJavaCallAdapterFactory.create()).build();  
+        mAPI = mRetrofit.create(API.class);  
+    }  
   
     public synchronized static ShoppingDiaryApi getInstance() {  
         synchronized (ShoppingDiaryApi.class) {  
             if (mInstance == null) {  
                 mInstance = new ShoppingDiaryApi();  
-			  }  
+            }  
             return mInstance;  
-		 }  
+        }  
     }
   
     public API getAPI(){  
         return mAPI;  
-	}  
+    }  
 
     public interface API{  
         @GET("shopping_shops_v3")  
         Observable<ShopsModel> getShopList(@Query("version") String version, @Query("app") String app, @Query("os_version") String os_version);  
   
-		@GET("open_status_s")  
+        @GET("open_status_s")  
         Observable<OpenStatusModel> getShopStatus(@Query("version") String version, @Query("app") String app, @Query("os_version") String os_version);  
-	 }  
+    }  
 }
 ~~~
 
@@ -184,17 +184,17 @@ Observable.zip(getOpenStatusObservable(), getShopsObservable(),
                 if(openStatusModel != null){  
                     .. 데이터 저장
                     if(이슈발생시){
-	                    return false;
+                        return false;
                     }
-				}  
+                }  
                 if(shopsModel != null){  
                     .. 데이터 저장 
                     if(이슈발생시){
-	                    return false;
+                        return false;
                     } 
-				}  
+                }  
                 return true;  
-		}})  
+                }})  
         .subscribeOn(Schedulers.newThread())  
         .observeOn(Schedulers.newThread())  
         .subscribe(  
@@ -205,16 +205,16 @@ Observable.zip(getOpenStatusObservable(), getShopsObservable(),
                     }  
                 },
                 new Action1<Throwable>() {
-                    @Override  
-					public void call(Throwable throwable) {  
-					  ..에러처리
+                    @Override
+                    public void call(Throwable throwable) {  
+                        ..에러처리
                     }  
                 }, 
                 new Action0() {  
                     @Override  
-					public void call() {  
+                    public void call() {  
                        ..완료처리
-				    }  
+                   }  
        });  
  
 ~~~
