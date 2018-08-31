@@ -263,3 +263,4 @@ subscribeOn 호출 시점과 다르게 제일 처음에 파란색으로 표시�
 심지어 쇼핑몰 불러오기의 경우에도 굉장히 유용하게 사용이 될 것으로 보여집니다.
 유행이니 뭐니를 떠나서 실제로 적용을 해보면 굉장히 편리하다고 느껴집니다.
 게다가 코틀린과의 궁합에 있어서도 상상초월이라고 하니, 꽤 기대가 되기도 합니다.
+![enter image description here](https://lh3.googleusercontent.com/U839aBy_Fabw6GY2SGCEpaf2VlSiejAFcyx8FLxnxwW4Sfog16o4ZMRYmBkWW3JV5ZuW1uZPwKde)
