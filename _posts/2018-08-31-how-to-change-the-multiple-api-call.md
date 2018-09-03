@@ -88,6 +88,10 @@ public interface API{
 }
 ~~~
 
+여기서 Retrofit의 장점중 하나인 Annotation을 이용한 요청 정의가 나옵니다.
+
+이 부분에서 굉장히 직관적으로 확인이 가능한 부분이므로 가장 마음에 드는 부분입니다.
+
 Observable 인스턴스로 반환되기 때문에, 이 친구들은 각각 ShopsModel, OpenStatusModel로 발행됩니다.
 
 api 준비는 끝났으니 Retrofit 인스턴스와 API interface를 구현해야합니다.
