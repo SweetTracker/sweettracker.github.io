@@ -30,9 +30,7 @@ tags: [RxJava, Retrofit]
 4. 라이브러리 다운로드
 5. sns로그인 관련값
 
-현재 Handler를 이용하여 데이터를 받게끔 되어있는데, 1번 api 호출 후 Handler로 전달된 메세지 확인 후 2번 api 호출. 그리고 Handler로 전달된 Message 확인 후 3번 api호출..
-
-이렇게 해서 총 5개의 api를 호출하고 있습니다.
+현재 Handler를 이용하여 데이터를 받게끔 되어있는데, 1번 api 호출 후 Handler로 전달된 메세지 확인 후 2번 api 호출. 그리고 Handler로 전달된 Message 확인 후 3번 api호출.. 이런식으로 총 5번을 호출하고 있습니다.
 
 그럼 코드는 어떻게 될까요.
 
