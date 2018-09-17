@@ -5,7 +5,7 @@ category: MongoDB
 tags: [MongoDB]
 ---
 
-## >MongoDB와 GeoJSON을 이용하여 근접 위치 확인하기
+## MongoDB와 GeoJSON을 이용하여 근접 위치 확인하기
 
 
 <body class="stackedit">
