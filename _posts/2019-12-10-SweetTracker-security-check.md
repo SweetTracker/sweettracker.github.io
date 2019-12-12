@@ -26,7 +26,8 @@ tags: [ssl, security, certificate]
 웹서비스를 이용하다 가끔 아래 화면과 같이 인증서가 만료되었다는 경고를 보셨던 분들도 계실겁니다.
 
   
-![](../assets/images/20191210/bad_ssl.png)
+![](/assets/images/20191210/bad_ssl.png)
+<img src="">
 
 최근 브라우저에서는 개인정보 보호를 위해 해당 SSL 문제에 대해 강력히 경고하고 있습니다.
 
@@ -45,9 +46,9 @@ https://www.ssllabs.com/ssltest/
 
 신규 SSL 인증서를 적용하고 해당 사트를 통해 점검을 진행했는데..
 
-![](../assets/images/20191210/75272140_521089011811711_8603764401267808264_n.jpg)
+![](/assets/images/20191210/75272140_521089011811711_8603764401267808264_n.jpg)
 
-![](../assets/images/20191210/f_grade.png)
+![](/assets/images/20191210/f_grade.png)
 
 아니.. F등급이라뇨!!!
 
@@ -89,7 +90,7 @@ This server supports TLS 1.0. Grade will be capped to B from January 2020.
 
 모든 것을 적용한 이후 확인해보면 A등급이 된 것을 확인할 수 있습니다.
 
-![](../assets/images/20191210/a_grade.png)
+![](/assets/images/20191210/a_grade.png)
 
 
 해당 점검에서 보여주는 등급이 절대적인 수치는 아닙니다.
