@@ -26,8 +26,7 @@ tags: [ssl, security, certificate]
 웹서비스를 이용하다 가끔 아래 화면과 같이 인증서가 만료되었다는 경고를 보셨던 분들도 계실겁니다.
 
   
-![](/assets/images/20191210/bad_ssl.png)
-<img src="">
+<img src="http://sweettracker.github.io/assets/images/20191210/bad_ssl.png">
 
 최근 브라우저에서는 개인정보 보호를 위해 해당 SSL 문제에 대해 강력히 경고하고 있습니다.
 
@@ -46,9 +45,10 @@ https://www.ssllabs.com/ssltest/
 
 신규 SSL 인증서를 적용하고 해당 사트를 통해 점검을 진행했는데..
 
-![](/assets/images/20191210/75272140_521089011811711_8603764401267808264_n.jpg)
+<img src="http://sweettracker.github.io/assets/images/20191210/75272140_521089011811711_8603764401267808264_n.jpg">
 
-![](/assets/images/20191210/f_grade.png)
+<img src="http://sweettracker.github.io/assets/images/20191210/f_grade.png">
+
 
 아니.. F등급이라뇨!!!
 
